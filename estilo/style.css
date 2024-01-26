@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'coolvetica';
+    src: url(../fontes/coolvetica\ rg\ it.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(../fontes/BebasNeue-Regular.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+header {
+    background-image: linear-gradient(to left bottom, #17ff00, #00ff6c, #00ffa1, #00ffc9, #00ffe6, #00f6f2, #00ecfb, #00e1ff, #00c9ff, #00b0fd, #0095f5, #0078e5);
+    padding: 10px;
+    text-align: center;
+    font-weight: normal;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: 'coolvetica', sans-serif;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.267);
+    
+}
+
+header h1 {
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.589);
+}
+
+header p  {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.589);
+    font-size: 1.05em; 
+    padding-bottom: 10px;
+}
+
+img.logo {
+    max-width: 165px;
+    max-height: 200px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Isso faz com que o container ocupe a altura total da tela */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.103);
+    background-color: rgba(219, 218, 218, 0.418);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.menu li {
+    margin: 10px; /* Espaço entre os itens do menu */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000; /* Altere para a cor desejada */
+    font-size: 18px; /* Altere para o tamanho desejado */
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+}
+
+.float:hover {
+     
+    background-color: white;
+
+}
+
+.menu a:hover {
+    background-color: rgba(0, 217, 255, 0.644);
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+    border-radius: 7px;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.float {
+    left:25px; position:fixed;
+    width:50px;
+    height:50px;
+    bottom:10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    background-color:#25d366;
+    color:#FFF;border-radius:50px;
+    text-align:center; font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    }
+
+
+
+.my-float {
+    margin-top:16px;
+}
+
+section {
+    padding: 20px;
+}
+
+.image-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image-box img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+#contato ul {
+    list-style: none;
+    padding: 0;
+}
